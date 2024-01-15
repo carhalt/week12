@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets app</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <div id="new-house" class="jumbotron">
+        <h2>Shnazzy Pets</h2>
+        <!-- Add this inside the #app or wherever you want the upload form -->
+        <div>
+            <input type="file" id="uploadInput" accept="image/*">
+            <button onclick="uploadPhoto()">Upload Photo</button>
+        </div>
+
+        <div id="app"></div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index2.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
